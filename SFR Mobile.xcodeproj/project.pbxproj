@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		341C964F1D1B76F6007C6E7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341C964E1D1B76F6007C6E7E /* AppDelegate.swift */; };
+		341C96511D1B76F6007C6E7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341C96501D1B76F6007C6E7E /* ViewController.swift */; };
+		341C96541D1B76F6007C6E7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 341C96521D1B76F6007C6E7E /* LaunchScreen.storyboard */; };
+		341C96561D1B76F6007C6E7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 341C96551D1B76F6007C6E7E /* Assets.xcassets */; };
+		341C96591D1B76F6007C6E7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 341C96571D1B76F6007C6E7E /* Main.storyboard */; };
+		341C96641D1B76F6007C6E7E /* SFR_MobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341C96631D1B76F6007C6E7E /* SFR_MobileTests.swift */; };
+		341C966F1D1B76F6007C6E7E /* SFR_MobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341C966E1D1B76F6007C6E7E /* SFR_MobileUITests.swift */; };
+		343303BD1D216A96008815DF /* Share.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343303BC1D216A96008815DF /* Share.swift */; };
+		343303C31D23562B008815DF /* Mon12P.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343303C21D23562B008815DF /* Mon12P.swift */; };
+		344552CB1D2768B0006A9458 /* Beta.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 344552CA1D2768B0006A9458 /* Beta.storyboard */; };
+		344552CE1D276F17006A9458 /* Beta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344552CD1D276F17006A9458 /* Beta.swift */; };
+		344552D01D27704D006A9458 /* VanTunes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344552CF1D27704D006A9458 /* VanTunes.swift */; };
+		346A5E021D1F606900C82D88 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 346A5DFF1D1F606900C82D88 /* SWRevealViewController.m */; };
+		346A5E041D1F611100C82D88 /* Help.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346A5E031D1F611100C82D88 /* Help.swift */; };
+		346EE9161D205D59001713F7 /* PreLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346EE9151D205D59001713F7 /* PreLog.swift */; };
+		346EE9181D206B72001713F7 /* PostLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346EE9171D206B72001713F7 /* PostLog.swift */; };
+		346EE91A1D206C16001713F7 /* FoodLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346EE9191D206C16001713F7 /* FoodLog.swift */; };
+		346EE91E1D208190001713F7 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346EE91D1D208190001713F7 /* Menu.swift */; };
+		346EE92B1D20B1C7001713F7 /* Directions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 346EE9291D20B1C7001713F7 /* Directions.storyboard */; };
+		346EE92D1D20B3E9001713F7 /* Mon9A.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346EE92C1D20B3E9001713F7 /* Mon9A.swift */; };
+		34A626051D1DC4DE0011F609 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A626041D1DC4DE0011F609 /* Contact.swift */; };
+		34ADAA9B1D20CE1C00BFD38B /* CS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ADAA9A1D20CE1C00BFD38B /* CS.swift */; };
+		34C669971D2364D900F9408A /* Tues8A.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C669961D2364D900F9408A /* Tues8A.swift */; };
+		34C669991D2364DE00F9408A /* Tues9A.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C669981D2364DE00F9408A /* Tues9A.swift */; };
+		34C6699B1D2402A000F9408A /* Sat12P.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C6699A1D2402A000F9408A /* Sat12P.swift */; };
+		34C6699D1D2404EB00F9408A /* Sat10A.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C6699C1D2404EB00F9408A /* Sat10A.swift */; };
+		34C6699F1D24080F00F9408A /* Fri10A.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C6699E1D24080F00F9408A /* Fri10A.swift */; };
+		34C669A11D24091900F9408A /* Fri8A.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C669A01D24091900F9408A /* Fri8A.swift */; };
+		34C669A31D240A7000F9408A /* Thurs630P.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C669A21D240A7000F9408A /* Thurs630P.swift */; };
+		34C669A51D240BEC00F9408A /* Thurs4P.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C669A41D240BEC00F9408A /* Thurs4P.swift */; };
+		34C669A71D240D6800F9408A /* Wed10A.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C669A61D240D6800F9408A /* Wed10A.swift */; };
+		34C669A91D240FDC00F9408A /* Wed8A.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C669A81D240FDC00F9408A /* Wed8A.swift */; };
+		34C669AB1D2410D200F9408A /* Sun11A.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C669AA1D2410D200F9408A /* Sun11A.swift */; };
+		34C669AD1D2411AA00F9408A /* Sun6P.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C669AC1D2411AA00F9408A /* Sun6P.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		341C96601D1B76F6007C6E7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 341C96431D1B76F6007C6E7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 341C964A1D1B76F6007C6E7E;
+			remoteInfo = "SFR Mobile";
+		};
+		341C966B1D1B76F6007C6E7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 341C96431D1B76F6007C6E7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 341C964A1D1B76F6007C6E7E;
+			remoteInfo = "SFR Mobile";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		341C964B1D1B76F6007C6E7E /* SFR Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SFR Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		341C964E1D1B76F6007C6E7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		341C96501D1B76F6007C6E7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		341C96531D1B76F6007C6E7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		341C96551D1B76F6007C6E7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		341C96581D1B76F6007C6E7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		341C965A1D1B76F6007C6E7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		341C965F1D1B76F6007C6E7E /* SFR MobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SFR MobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		341C96631D1B76F6007C6E7E /* SFR_MobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFR_MobileTests.swift; sourceTree = "<group>"; };
+		341C96651D1B76F6007C6E7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		341C966A1D1B76F6007C6E7E /* SFR MobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SFR MobileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		341C966E1D1B76F6007C6E7E /* SFR_MobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFR_MobileUITests.swift; sourceTree = "<group>"; };
+		341C96701D1B76F6007C6E7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		343303BC1D216A96008815DF /* Share.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Share.swift; sourceTree = "<group>"; };
+		343303C21D23562B008815DF /* Mon12P.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mon12P.swift; sourceTree = "<group>"; };
+		344552CA1D2768B0006A9458 /* Beta.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Beta.storyboard; sourceTree = "<group>"; };
+		344552CD1D276F17006A9458 /* Beta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beta.swift; sourceTree = "<group>"; };
+		344552CF1D27704D006A9458 /* VanTunes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VanTunes.swift; sourceTree = "<group>"; };
+		346A5DFF1D1F606900C82D88 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		346A5E001D1F606900C82D88 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		346A5E011D1F606900C82D88 /* SFR Mobile-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SFR Mobile-Bridging-Header.h"; sourceTree = "<group>"; };
+		346A5E031D1F611100C82D88 /* Help.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Help.swift; sourceTree = "<group>"; };
+		346EE9151D205D59001713F7 /* PreLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreLog.swift; sourceTree = "<group>"; };
+		346EE9171D206B72001713F7 /* PostLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostLog.swift; sourceTree = "<group>"; };
+		346EE9191D206C16001713F7 /* FoodLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodLog.swift; sourceTree = "<group>"; };
+		346EE91D1D208190001713F7 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		346EE92A1D20B1C7001713F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Directions.storyboard; sourceTree = "<group>"; };
+		346EE92C1D20B3E9001713F7 /* Mon9A.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mon9A.swift; sourceTree = "<group>"; };
+		34A626041D1DC4DE0011F609 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		34ADAA9A1D20CE1C00BFD38B /* CS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CS.swift; sourceTree = "<group>"; };
+		34C669961D2364D900F9408A /* Tues8A.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tues8A.swift; sourceTree = "<group>"; };
+		34C669981D2364DE00F9408A /* Tues9A.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tues9A.swift; sourceTree = "<group>"; };
+		34C6699A1D2402A000F9408A /* Sat12P.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sat12P.swift; sourceTree = "<group>"; };
+		34C6699C1D2404EB00F9408A /* Sat10A.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sat10A.swift; sourceTree = "<group>"; };
+		34C6699E1D24080F00F9408A /* Fri10A.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fri10A.swift; sourceTree = "<group>"; };
+		34C669A01D24091900F9408A /* Fri8A.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fri8A.swift; sourceTree = "<group>"; };
+		34C669A21D240A7000F9408A /* Thurs630P.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thurs630P.swift; sourceTree = "<group>"; };
+		34C669A41D240BEC00F9408A /* Thurs4P.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thurs4P.swift; sourceTree = "<group>"; };
+		34C669A61D240D6800F9408A /* Wed10A.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wed10A.swift; sourceTree = "<group>"; };
+		34C669A81D240FDC00F9408A /* Wed8A.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wed8A.swift; sourceTree = "<group>"; };
+		34C669AA1D2410D200F9408A /* Sun11A.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sun11A.swift; sourceTree = "<group>"; };
+		34C669AC1D2411AA00F9408A /* Sun6P.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sun6P.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		341C96481D1B76F6007C6E7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341C965C1D1B76F6007C6E7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341C96671D1B76F6007C6E7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		341C96421D1B76F6007C6E7E = {
+			isa = PBXGroup;
+			children = (
+				341C964D1D1B76F6007C6E7E /* SFR Mobile */,
+				341C96621D1B76F6007C6E7E /* SFR MobileTests */,
+				341C966D1D1B76F6007C6E7E /* SFR MobileUITests */,
+				341C964C1D1B76F6007C6E7E /* Products */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		341C964C1D1B76F6007C6E7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				341C964B1D1B76F6007C6E7E /* SFR Mobile.app */,
+				341C965F1D1B76F6007C6E7E /* SFR MobileTests.xctest */,
+				341C966A1D1B76F6007C6E7E /* SFR MobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		341C964D1D1B76F6007C6E7E /* SFR Mobile */ = {
+			isa = PBXGroup;
+			children = (
+				344552CC1D2768B7006A9458 /* Beta */,
+				346EE9231D20A49C001713F7 /* Supporting Files */,
+				346EE9221D20A486001713F7 /* MainMenu */,
+				346EE9211D20A479001713F7 /* Directions */,
+				341C964E1D1B76F6007C6E7E /* AppDelegate.swift */,
+				341C96501D1B76F6007C6E7E /* ViewController.swift */,
+				341C96551D1B76F6007C6E7E /* Assets.xcassets */,
+				341C965A1D1B76F6007C6E7E /* Info.plist */,
+			);
+			path = "SFR Mobile";
+			sourceTree = "<group>";
+		};
+		341C96621D1B76F6007C6E7E /* SFR MobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				341C96631D1B76F6007C6E7E /* SFR_MobileTests.swift */,
+				341C96651D1B76F6007C6E7E /* Info.plist */,
+			);
+			path = "SFR MobileTests";
+			sourceTree = "<group>";
+		};
+		341C966D1D1B76F6007C6E7E /* SFR MobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				341C966E1D1B76F6007C6E7E /* SFR_MobileUITests.swift */,
+				341C96701D1B76F6007C6E7E /* Info.plist */,
+			);
+			path = "SFR MobileUITests";
+			sourceTree = "<group>";
+		};
+		344552CC1D2768B7006A9458 /* Beta */ = {
+			isa = PBXGroup;
+			children = (
+				344552CA1D2768B0006A9458 /* Beta.storyboard */,
+				344552CF1D27704D006A9458 /* VanTunes.swift */,
+				344552CD1D276F17006A9458 /* Beta.swift */,
+			);
+			name = Beta;
+			sourceTree = "<group>";
+		};
+		346EE9211D20A479001713F7 /* Directions */ = {
+			isa = PBXGroup;
+			children = (
+				346EE9291D20B1C7001713F7 /* Directions.storyboard */,
+				34C669AC1D2411AA00F9408A /* Sun6P.swift */,
+				34C669AA1D2410D200F9408A /* Sun11A.swift */,
+				34C669A81D240FDC00F9408A /* Wed8A.swift */,
+				34C669A61D240D6800F9408A /* Wed10A.swift */,
+				34C669A41D240BEC00F9408A /* Thurs4P.swift */,
+				34C669A21D240A7000F9408A /* Thurs630P.swift */,
+				34C669A01D24091900F9408A /* Fri8A.swift */,
+				34C6699E1D24080F00F9408A /* Fri10A.swift */,
+				34C6699C1D2404EB00F9408A /* Sat10A.swift */,
+				34C6699A1D2402A000F9408A /* Sat12P.swift */,
+				34C669961D2364D900F9408A /* Tues8A.swift */,
+				34C669981D2364DE00F9408A /* Tues9A.swift */,
+				343303C21D23562B008815DF /* Mon12P.swift */,
+				346EE92C1D20B3E9001713F7 /* Mon9A.swift */,
+			);
+			name = Directions;
+			sourceTree = "<group>";
+		};
+		346EE9221D20A486001713F7 /* MainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				341C96571D1B76F6007C6E7E /* Main.storyboard */,
+				343303BC1D216A96008815DF /* Share.swift */,
+				34ADAA9A1D20CE1C00BFD38B /* CS.swift */,
+				346EE91D1D208190001713F7 /* Menu.swift */,
+				346EE9171D206B72001713F7 /* PostLog.swift */,
+				346EE9191D206C16001713F7 /* FoodLog.swift */,
+				346EE9151D205D59001713F7 /* PreLog.swift */,
+				346A5E031D1F611100C82D88 /* Help.swift */,
+				34A626041D1DC4DE0011F609 /* Contact.swift */,
+				341C96521D1B76F6007C6E7E /* LaunchScreen.storyboard */,
+			);
+			name = MainMenu;
+			sourceTree = "<group>";
+		};
+		346EE9231D20A49C001713F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				346A5DFF1D1F606900C82D88 /* SWRevealViewController.m */,
+				346A5E001D1F606900C82D88 /* SWRevealViewController.h */,
+				346A5E011D1F606900C82D88 /* SFR Mobile-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		341C964A1D1B76F6007C6E7E /* SFR Mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 341C96731D1B76F6007C6E7E /* Build configuration list for PBXNativeTarget "SFR Mobile" */;
+			buildPhases = (
+				341C96471D1B76F6007C6E7E /* Sources */,
+				341C96481D1B76F6007C6E7E /* Frameworks */,
+				341C96491D1B76F6007C6E7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SFR Mobile";
+			productName = "SFR Mobile";
+			productReference = 341C964B1D1B76F6007C6E7E /* SFR Mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		341C965E1D1B76F6007C6E7E /* SFR MobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 341C96761D1B76F6007C6E7E /* Build configuration list for PBXNativeTarget "SFR MobileTests" */;
+			buildPhases = (
+				341C965B1D1B76F6007C6E7E /* Sources */,
+				341C965C1D1B76F6007C6E7E /* Frameworks */,
+				341C965D1D1B76F6007C6E7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				341C96611D1B76F6007C6E7E /* PBXTargetDependency */,
+			);
+			name = "SFR MobileTests";
+			productName = "SFR MobileTests";
+			productReference = 341C965F1D1B76F6007C6E7E /* SFR MobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		341C96691D1B76F6007C6E7E /* SFR MobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 341C96791D1B76F6007C6E7E /* Build configuration list for PBXNativeTarget "SFR MobileUITests" */;
+			buildPhases = (
+				341C96661D1B76F6007C6E7E /* Sources */,
+				341C96671D1B76F6007C6E7E /* Frameworks */,
+				341C96681D1B76F6007C6E7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				341C966C1D1B76F6007C6E7E /* PBXTargetDependency */,
+			);
+			name = "SFR MobileUITests";
+			productName = "SFR MobileUITests";
+			productReference = 341C966A1D1B76F6007C6E7E /* SFR MobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		341C96431D1B76F6007C6E7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Boston University Community Service Center";
+				TargetAttributes = {
+					341C964A1D1B76F6007C6E7E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = NJ4HED2879;
+						LastSwiftMigration = 0820;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+					341C965E1D1B76F6007C6E7E = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
+						TestTargetID = 341C964A1D1B76F6007C6E7E;
+					};
+					341C96691D1B76F6007C6E7E = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
+						TestTargetID = 341C964A1D1B76F6007C6E7E;
+					};
+				};
+			};
+			buildConfigurationList = 341C96461D1B76F6007C6E7E /* Build configuration list for PBXProject "SFR Mobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 341C96421D1B76F6007C6E7E;
+			productRefGroup = 341C964C1D1B76F6007C6E7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				341C964A1D1B76F6007C6E7E /* SFR Mobile */,
+				341C965E1D1B76F6007C6E7E /* SFR MobileTests */,
+				341C96691D1B76F6007C6E7E /* SFR MobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		341C96491D1B76F6007C6E7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				346EE92B1D20B1C7001713F7 /* Directions.storyboard in Resources */,
+				344552CB1D2768B0006A9458 /* Beta.storyboard in Resources */,
+				341C96591D1B76F6007C6E7E /* Main.storyboard in Resources */,
+				341C96561D1B76F6007C6E7E /* Assets.xcassets in Resources */,
+				341C96541D1B76F6007C6E7E /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341C965D1D1B76F6007C6E7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341C96681D1B76F6007C6E7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		341C96471D1B76F6007C6E7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				346EE9161D205D59001713F7 /* PreLog.swift in Sources */,
+				344552CE1D276F17006A9458 /* Beta.swift in Sources */,
+				34C6699D1D2404EB00F9408A /* Sat10A.swift in Sources */,
+				34C669A91D240FDC00F9408A /* Wed8A.swift in Sources */,
+				343303BD1D216A96008815DF /* Share.swift in Sources */,
+				34C6699B1D2402A000F9408A /* Sat12P.swift in Sources */,
+				34C669991D2364DE00F9408A /* Tues9A.swift in Sources */,
+				34C669A31D240A7000F9408A /* Thurs630P.swift in Sources */,
+				34C669A11D24091900F9408A /* Fri8A.swift in Sources */,
+				34C669AB1D2410D200F9408A /* Sun11A.swift in Sources */,
+				341C96511D1B76F6007C6E7E /* ViewController.swift in Sources */,
+				346EE92D1D20B3E9001713F7 /* Mon9A.swift in Sources */,
+				34C669A51D240BEC00F9408A /* Thurs4P.swift in Sources */,
+				341C964F1D1B76F6007C6E7E /* AppDelegate.swift in Sources */,
+				346A5E041D1F611100C82D88 /* Help.swift in Sources */,
+				34ADAA9B1D20CE1C00BFD38B /* CS.swift in Sources */,
+				34C669A71D240D6800F9408A /* Wed10A.swift in Sources */,
+				346EE91E1D208190001713F7 /* Menu.swift in Sources */,
+				343303C31D23562B008815DF /* Mon12P.swift in Sources */,
+				34C669971D2364D900F9408A /* Tues8A.swift in Sources */,
+				346EE9181D206B72001713F7 /* PostLog.swift in Sources */,
+				34C6699F1D24080F00F9408A /* Fri10A.swift in Sources */,
+				346A5E021D1F606900C82D88 /* SWRevealViewController.m in Sources */,
+				34A626051D1DC4DE0011F609 /* Contact.swift in Sources */,
+				344552D01D27704D006A9458 /* VanTunes.swift in Sources */,
+				34C669AD1D2411AA00F9408A /* Sun6P.swift in Sources */,
+				346EE91A1D206C16001713F7 /* FoodLog.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341C965B1D1B76F6007C6E7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341C96641D1B76F6007C6E7E /* SFR_MobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341C96661D1B76F6007C6E7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341C966F1D1B76F6007C6E7E /* SFR_MobileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		341C96611D1B76F6007C6E7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 341C964A1D1B76F6007C6E7E /* SFR Mobile */;
+			targetProxy = 341C96601D1B76F6007C6E7E /* PBXContainerItemProxy */;
+		};
+		341C966C1D1B76F6007C6E7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 341C964A1D1B76F6007C6E7E /* SFR Mobile */;
+			targetProxy = 341C966B1D1B76F6007C6E7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		341C96521D1B76F6007C6E7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				341C96531D1B76F6007C6E7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		341C96571D1B76F6007C6E7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				341C96581D1B76F6007C6E7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		346EE9291D20B1C7001713F7 /* Directions.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				346EE92A1D20B1C7001713F7 /* Base */,
+			);
+			name = Directions.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		341C96711D1B76F6007C6E7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		341C96721D1B76F6007C6E7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		341C96741D1B76F6007C6E7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "SFR Mobile/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BU-CSC.SFR-Mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SFR Mobile/SFR Mobile-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		341C96751D1B76F6007C6E7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "SFR Mobile/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BU-CSC.SFR-Mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SFR Mobile/SFR Mobile-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		341C96771D1B76F6007C6E7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SFR MobileTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BU-CSC.SFR-MobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFR Mobile.app/SFR Mobile";
+			};
+			name = Debug;
+		};
+		341C96781D1B76F6007C6E7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SFR MobileTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BU-CSC.SFR-MobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFR Mobile.app/SFR Mobile";
+			};
+			name = Release;
+		};
+		341C967A1D1B76F6007C6E7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SFR MobileUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BU-CSC.SFR-MobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "SFR Mobile";
+			};
+			name = Debug;
+		};
+		341C967B1D1B76F6007C6E7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SFR MobileUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BU-CSC.SFR-MobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "SFR Mobile";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		341C96461D1B76F6007C6E7E /* Build configuration list for PBXProject "SFR Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				341C96711D1B76F6007C6E7E /* Debug */,
+				341C96721D1B76F6007C6E7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		341C96731D1B76F6007C6E7E /* Build configuration list for PBXNativeTarget "SFR Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				341C96741D1B76F6007C6E7E /* Debug */,
+				341C96751D1B76F6007C6E7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		341C96761D1B76F6007C6E7E /* Build configuration list for PBXNativeTarget "SFR MobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				341C96771D1B76F6007C6E7E /* Debug */,
+				341C96781D1B76F6007C6E7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		341C96791D1B76F6007C6E7E /* Build configuration list for PBXNativeTarget "SFR MobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				341C967A1D1B76F6007C6E7E /* Debug */,
+				341C967B1D1B76F6007C6E7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 341C96431D1B76F6007C6E7E /* Project object */;
+}
